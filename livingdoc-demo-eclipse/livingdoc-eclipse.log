@@ -1,7 +1,0 @@
-2018-05-25 12:55:47,655 DEBUG i.n.t.l.s.r.x.LivingDocXmlRpcClient [main] Retrieving repositories for Associated project. (SystemUnderTest : Demo)
-2018-05-25 12:55:47,692 DEBUG i.n.t.l.s.r.x.XmlRpcDataMarshaller [main] Extracting repository from XML-RPC parameters %s
-2018-05-25 12:55:47,693 DEBUG i.n.t.l.s.r.x.XmlRpcDataMarshaller [main] Extracting repository type from XML-RPC parameters %s
-2018-05-25 12:58:37,047 DEBUG i.n.t.l.e.v.EclipseRepository [main] Retrieving specification hierarchy: repository: 'LivingDoc Demo',
-SUT: 'Demo')
-2018-05-25 12:58:37,048 DEBUG i.n.t.l.s.r.x.LivingDocXmlRpcClient [main] Get Specification Hierarchy: LivingDoc Demo & Demo
-2018-05-25 12:58:41,128 DEBUG i.n.t.l.e.v.EclipseSpecification [Thread-12] Launch configuration saved: '{baseURL=http://mruiz-ThinkPad-P50:1990/confluence/rpc/xmlrpc?handler=livingdoc1#LIVINGDOCDEMO, local=false, org.eclipse.jdt.launching.MAIN_TYPE=info.novatec.testit.livingdoc.runner.Main, org.eclipse.jdt.launching.PROJECT_ATTR=livingdoc-eclipse-demo, password=admin, repoClass=info.novatec.testit.livingdoc.repository.AtlassianRepository, repoName=LivingDoc Demo, repoUID=Confluence-LIVINGDOCDEMO, serializedSpecification=9e1ea084-4e19-4528-8f48-caf91a24b78a, specificationName=Bank, username=admin, workingversion=false}'
