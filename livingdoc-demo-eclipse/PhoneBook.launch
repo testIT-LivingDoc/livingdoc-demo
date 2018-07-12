@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="info.novatec.testit.livingdoc.eclipse.launcher.RunSpecification">
+<stringAttribute key="baseURL" value="http://nbookmri:1990/confluence/rpc/xmlrpc?handler=livingdoc1#LIVINGDOCDEMO"/>
+<stringAttribute key="local" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="info.novatec.testit.livingdoc.runner.Main"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="testit-livingdoc-eclipse-demo-project"/>
+<stringAttribute key="password" value=""/>
+<stringAttribute key="repoClass" value="info.novatec.testit.livingdoc.repository.AtlassianRepository"/>
+<stringAttribute key="repoName" value="LivingDoc Demo"/>
+<stringAttribute key="repoUID" value="Confluence-LIVINGDOCDEMO"/>
+<stringAttribute key="serializedSpecification" value="d75723b6-5870-4d7d-aae0-04b12dc6fb03"/>
+<stringAttribute key="specificationName" value="PhoneBook"/>
+<stringAttribute key="username" value=""/>
+<stringAttribute key="workingversion" value="false"/>
+</launchConfiguration>
