@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>Adding products to the shopping cart</title>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta name="title" content="Adding products to the shopping cart"/>
+<meta name="external-link" content="http://localhost:8090/confluence/display/LD/Adding+products+to+the+shopping+cart"/>
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/7e417bbc07ed21f90a55e989886f1017-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/5.7.34/_/download/batch/com.atlassian.auiplugin:aui-page-typography/com.atlassian.auiplugin:aui-page-typography.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/7e417bbc07ed21f90a55e989886f1017-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/5.7.34/_/download/batch/com.atlassian.auiplugin:aui-avatars/com.atlassian.auiplugin:aui-avatars.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/90731515e1d37d44a291c7a04cec4f94-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/5.7.34/_/download/batch/com.atlassian.auiplugin:aui-page-layout/com.atlassian.auiplugin:aui-page-layout.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/37efe7e508357f382d0a5b2b73cd47ee-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/5.9.3/_/download/batch/com.atlassian.confluence.editor:editor-content-styles/com.atlassian.confluence.editor:editor-content-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/5.9.3/_/download/batch/com.atlassian.confluence.plugins.confluence-templates:variable-editor-content-styles/com.atlassian.confluence.plugins.confluence-templates:variable-editor-content-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/7e417bbc07ed21f90a55e989886f1017-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/5.7.34/_/download/batch/com.atlassian.auiplugin:aui-lozenge/com.atlassian.auiplugin:aui-lozenge.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/2.17/_/download/batch/com.atlassian.confluence.plugins.status-macro:view_content_status/com.atlassian.confluence.plugins.status-macro:view_content_status.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/489901e715cade6fe0efc7e21e194576-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/2.17/_/download/batch/com.atlassian.confluence.plugins.status-macro:editor_content_status/com.atlassian.confluence.plugins.status-macro:editor_content_status.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/db3daece29a9d5f93d193ed25a4b973b-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/1.2.5/_/download/batch/com.atlassian.confluence.plugins.confluence-fixed-headers:confluence-fixed-headers-editor-content-resources/com.atlassian.confluence.plugins.confluence-fixed-headers:confluence-fixed-headers-editor-content-resources.css?confluence.view.edit.transition=true" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/6bcc3684f18aa21874fa709f122723cf-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/3.7.0/_/download/batch/confluence.extra.attachments:attachments-css/confluence.extra.attachments:attachments-css.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/2.6.1/_/download/batch/nl.avisi.confluence.plugins.numberedheadings:nh-tinymce-css-resources/nl.avisi.confluence.plugins.numberedheadings:nh-tinymce-css-resources.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/12.4.05/_/download/batch/com.atlassian.confluence.plugins.confluence-roadmap-plugin:roadmap-placeholder-css/com.atlassian.confluence.plugins.confluence-roadmap-plugin:roadmap-placeholder-css.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/1.0/_/download/batch/confluence.web.resources:panel-styles/confluence.web.resources:panel-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/1.0/_/download/batch/confluence.web.resources:content-styles/confluence.web.resources:content-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/5.9.3/_/download/batch/com.atlassian.confluence.plugins.confluence-page-layout:editor-pagelayout-content-styles/com.atlassian.confluence.plugins.confluence-page-layout:editor-pagelayout-content-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/4.1.2/_/download/batch/com.atlassian.confluence.plugins.confluence-business-blueprints:sharelinks-urlmacro-editor-resources/com.atlassian.confluence.plugins.confluence-business-blueprints:sharelinks-urlmacro-editor-resources.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/5.7.14/_/download/batch/com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles/com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/5.7.14/_/download/batch/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css.css" media="all">
+
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/ff60b7aab5aad26f3fe092077c8029d8-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/1.4.26/_/download/batch/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-editor-content-resources/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-editor-content-resources.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/3.1.0/_/download/batch/com.atlassian.confluence.plugins.confluence-software-blueprints:common-resources/com.atlassian.confluence.plugins.confluence-software-blueprints:common-resources.css" media="all">
+<link type="text/css" rel="stylesheet" href="http://localhost:8090/confluence/s/en_GB/6210/96b66f73363ad6a4132228b496713b1df46ada86.1/11/_/styles/colors.css?spaceKey=LD" media="all">
+<base href="http://localhost:8090/confluence"/>
+</head>
+<body>
+<div id="Content" style="text-align:left; padding: 5px;">
+<p><table style="display:none" class="conf-macro output-block" data-hasbody="false" data-macro-name="livingdoc-import">
+	<tbody><tr>
+		<td>Import</td>
+	</tr>
+			<tr>
+			<td>info.novatec.aqe.showcase.livingdoc.showcase.sbe.uitest.fixtures</td>
+		</tr>
+	</tbody></table>
+</p><div class="conf-macro output-block" data-hasbody="true" data-macro-name="livingdoc-info"><table style="display:none">
+	<tbody><tr>
+		<td>Begin Info</td>
+	</tr>
+</tbody></table>
+<div style="padding:0px; margin:0px; ">
+		<h1 id="Addingproductstotheshoppingcart-Overview">Overview</h1><p>In order to order multiple items during a visit session of the shop  as shop operator we provide a shopping cart for all shop visitors.</p><h2 id="Addingproductstotheshoppingcart-Acceptancecriteria">Acceptance criteria</h2><ul><li><span>The shop visitor may only add products that are in stock</span></li><li><span>The shopping cart must survive the closing of the browser</span></li><li><span>The shopping cart is only available for registered users</span></li><li><span>The shopping cart is dropped after 90 min.</span></li></ul><h1 id="Addingproductstotheshoppingcart-AcceptanceTests">Acceptance Tests</h1>
+</div>
+<table style="display:none">
+	<tbody><tr>
+		<td>End Info</td>
+	</tr>
+</tbody></table>
+</div><h2 id="Addingproductstotheshoppingcart-API-LevelTests">API-Level Tests</h2><div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh" style="background-color: #FFFFAA;">rule for<hr/><pre><font size="-2">info.novatec.testit.livingdoc.reflect.TypeNotFoundException: Buy (INT-Test) does not match any known type<br/>at info.novatec.testit.livingdoc.systemunderdevelopment.DefaultSystemUnderDevelopment.loadType(DefaultSystemUnderDevelopment.java:74)<br/>at info.novatec.testit.livingdoc.systemunderdevelopment.DefaultSystemUnderDevelopment.getFixture(DefaultSystemUnderDevelopment.java:62)<br/>at info.novatec.testit.livingdoc.document.LivingDocInterpreterSelector.selectFixture(LivingDocInterpreterSelector.java:66)<br/>at info.novatec.testit.livingdoc.document.LivingDocInterpreterSelector.selectInterpreter(LivingDocInterpreterSelector.java:49)<br/>at info.novatec.testit.livingdoc.document.Document.execute(Document.java:79)<br/>at info.novatec.testit.livingdoc.runner.DocumentRunner.run(DocumentRunner.java:107)<br/>at info.novatec.testit.livingdoc.runner.CommandLineRunner.runSpec(CommandLineRunner.java:83)<br/>at info.novatec.testit.livingdoc.runner.CommandLineRunner.run(CommandLineRunner.java:73)<br/>at info.novatec.testit.livingdoc.runner.Main.main(Main.java:15)</font></pre></th><th class="confluenceTh"><span>Buy (INT-Test)</span></th></tr><tr><td class="confluenceTd">Add Product <span>with </span>ids</td><td class="confluenceTd">Product ids in the shopping cart?</td></tr><tr><td colspan="1" class="confluenceTd">5263428, 4436832, 98242345</td><td colspan="1" class="confluenceTd"><span>5263428, 4436832, 98242345</span></td></tr><tr><td colspan="1" class="confluenceTd">5263428, 4436832, 98242343</td><td colspan="1" class="confluenceTd">5263428, 4436832, 98242343</td></tr></tbody></table></div><h2 id="Addingproductstotheshoppingcart-UI-levelTests">UI-level Tests</h2><p> </p><p> </p><div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh" style="background-color: #FFFFAA;">do with<hr/><pre><font size="-2">info.novatec.testit.livingdoc.reflect.TypeNotFoundException: Purchasing a product [UI Test] does not match any known type<br/>at info.novatec.testit.livingdoc.systemunderdevelopment.DefaultSystemUnderDevelopment.loadType(DefaultSystemUnderDevelopment.java:74)<br/>at info.novatec.testit.livingdoc.systemunderdevelopment.DefaultSystemUnderDevelopment.getFixture(DefaultSystemUnderDevelopment.java:62)<br/>at info.novatec.testit.livingdoc.document.LivingDocInterpreterSelector.selectFixture(LivingDocInterpreterSelector.java:66)<br/>at info.novatec.testit.livingdoc.document.LivingDocInterpreterSelector.selectInterpreter(LivingDocInterpreterSelector.java:49)<br/>at info.novatec.testit.livingdoc.document.Document.execute(Document.java:79)<br/>at info.novatec.testit.livingdoc.runner.DocumentRunner.run(DocumentRunner.java:107)<br/>at info.novatec.testit.livingdoc.runner.CommandLineRunner.runSpec(CommandLineRunner.java:83)<br/>at info.novatec.testit.livingdoc.runner.CommandLineRunner.run(CommandLineRunner.java:73)<br/>at info.novatec.testit.livingdoc.runner.Main.main(Main.java:15)</font></pre></th><th colspan="3" class="confluenceTh">Purchasing a product [UI Test]</th></tr><tr><td class="confluenceTd">Given  a successfully signed in user</td><td class="confluenceTd">user1</td><td class="confluenceTd">with password</td><td colspan="1" class="confluenceTd">password</td></tr><tr><td colspan="3" class="confluenceTd">When the user views the details of the product No</td><td colspan="1" class="confluenceTd">2</td></tr><tr><td colspan="4" class="confluenceTd">And he adds the product to the shopping cart</td></tr><tr><td colspan="1" class="confluenceTd">And repeats the last two steps for the products</td><td colspan="1" class="confluenceTd">3</td><td colspan="1" class="confluenceTd">and</td><td colspan="1" class="confluenceTd">4</td></tr><tr><td colspan="1" class="confluenceTd">check</td><td colspan="1" class="confluenceTd">that the number of objects in the shopping cart is</td><td colspan="2" class="confluenceTd">3</td></tr><tr><td colspan="4" class="confluenceTd">When the user checks out</td></tr><tr><td class="confluenceTd">accept</td><td colspan="3" class="confluenceTd">that the shopping cart overview is displayed</td></tr><tr><td class="confluenceTd">check</td><td class="confluenceTd">that the number of items in the list is</td><td colspan="2" class="confluenceTd">3</td></tr><tr><td class="confluenceTd">accept</td><td colspan="3" class="confluenceTd">that the purchase can be started</td></tr></tbody></table></div><div class="table-wrap"><table class="confluenceTable"><tbody><tr><th class="confluenceTh" style="background-color: #FFFFAA;">End<hr/><pre><font size="-2">info.novatec.testit.livingdoc.reflect.TypeNotFoundException: End does not match any known type<br/>at info.novatec.testit.livingdoc.LivingDoc.getInterpreter(LivingDoc.java:78)<br/>at info.novatec.testit.livingdoc.document.LivingDocInterpreterSelector.selectInterpreter(LivingDocInterpreterSelector.java:50)<br/>at info.novatec.testit.livingdoc.document.Document.execute(Document.java:79)<br/>at info.novatec.testit.livingdoc.runner.DocumentRunner.run(DocumentRunner.java:107)<br/>at info.novatec.testit.livingdoc.runner.CommandLineRunner.runSpec(CommandLineRunner.java:83)<br/>at info.novatec.testit.livingdoc.runner.CommandLineRunner.run(CommandLineRunner.java:73)<br/>at info.novatec.testit.livingdoc.runner.Main.main(Main.java:15)</font></pre></th></tr></tbody></table></div><p> </p><p> </p><div class="conf-macro output-block" data-hasbody="true" data-macro-name="livingdoc-info"><table style="display:none">
+	<tbody><tr>
+		<td>Begin Info</td>
+	</tr>
+</tbody></table>
+<div style="padding:0px; margin:0px; ">
+		<h2 id="Addingproductstotheshoppingcart-Manuelvalidation">Manuel validation</h2><p>The expiration policy of the user session should be validated in manual tests.</p><h2 id="Addingproductstotheshoppingcart-Outofscope">Out of scope</h2><p>None.</p><h2 id="Addingproductstotheshoppingcart-RelatedUserstories/Tasks">Related User stories / Tasks</h2><p> </p><p>     </p><div class="jim-error-message jim-error-message-table conf-macro output-block" data-hasbody="false" data-macro-name="jira">
+        <table class="aui">
+            <tbody>
+                                <tr> </tr>
+
+                <tr>
+                                        <th>key</th>
+                                        <th>type</th>
+                                        <th>summary</th>
+                                        <th>status</th>
+                                    </tr>
+
+                <tr>
+                    <td colspan="4">
+                        <div class="aui-message aui-message-warning">
+                            <p class="message">
+                                <span class="icon-in-pdf"> </span>
+                                com.atlassian.sal.api.net.ResponseException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:7777 [localhost/127.0.0.1] failed: Connection refused
+                            </p>
+                             <a class="jira-link" href="http://localhost:7777/jira/secure/IssueNavigator.jspa?reset=true&jqlQuery=key+in+%28lds-6+%2C+lds-14+%2C++lds-15+%2C+lds-7+%29+++&src=confmacro">View these issues in JIRA</a>                         </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<p></p><p> </p><h1 id="Addingproductstotheshoppingcart-Testresulthistory">Test result history</h1><p> </p>
+</div>
+<table style="display:none">
+	<tbody><tr>
+		<td>End Info</td>
+	</tr>
+</tbody></table>
+</div><p> </p><p><div class="conf-macro output-block" data-hasbody="false" data-macro-name="livingdoc-historic"><script language="javascript">//<![CDATA[
+
+function LD_HISTORIC_11_showExecutionResult(id)
+{
+    LD_HISTORIC_11_openWin('/confluence/livingdoc/ShowExecutionResult.action?decorator=none&spaceKey=LD&id=' + id, "historic");
+}
+function LD_HISTORIC_11_showHistoricChart(id)
+{
+    LD_HISTORIC_11_openWin('/confluence/livingdoc/ShowHistoricChart.action?decorator=none&spaceKey=LD&sut=INT_VM&width=800&height=600&maxResult=30&showIgnored=false&id=' + id, "historicchart");
+}
+function LD_HISTORIC_11_openWin(url, winname)
+{
+    var widthW = 825; var heightW = 625;
+    var widthL; var heightL;
+    if( typeof( window.innerWidth ) == 'number' )
+    {
+        widthL = (window.innerWidth - widthW)/2;
+        heightL = (window.innerHeight - heightW)/2;
+    }
+    else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) )
+    {
+        widthL = (document.documentElement.clientWidth - widthW)/2;
+        heightL = (document.documentElement.clientHeight - heightW)/2;
+    }
+    else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) )
+    {
+        widthL = (document.body.clientWidth - widthW)/2;
+        heightL = (document.body.clientHeight - heightW)/2;
+    }
+    window.open(url, winname,"left="+widthL+",top="+heightL+",width="+widthW+",height="+heightW+",resizable=1,toolbar=0,scrollbars=1,location=0,menubar=0");
+}
+
+//]]
