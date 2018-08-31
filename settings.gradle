@@ -1,3 +1,4 @@
 rootProject.name = 'livingdoc-demo'
 include 'livingdoc-demo-intellij'
+include 'livingdoc-demo-eclipse'
 

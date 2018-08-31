@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="info.novatec.testit.livingdoc.eclipse.launcher.RunSpecification">
+<stringAttribute key="baseURL" value="http://mruiz-ThinkPad-P50:1990/confluence/rpc/xmlrpc?handler=livingdoc1#LIVINGDOCDEMO"/>
+<stringAttribute key="local" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="info.novatec.testit.livingdoc.runner.Main"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="sample-livingdoc"/>
+<stringAttribute key="password" value="geheim123"/>
+<stringAttribute key="repoClass" value="info.novatec.testit.livingdoc.repository.AtlassianRepository"/>
+<stringAttribute key="repoName" value="LivingDoc Demo"/>
+<stringAttribute key="repoUID" value="Confluence-LIVINGDOCDEMO"/>
+<stringAttribute key="serializedSpecification" value="ba46a111-bb88-4955-a756-a88272cdf1ed"/>
+<stringAttribute key="specificationName" value="Calculator"/>
+<stringAttribute key="username" value="admin"/>
+<stringAttribute key="workingversion" value="false"/>
+</launchConfiguration>
