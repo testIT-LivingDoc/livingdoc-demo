@@ -1,9 +1,16 @@
-# IntelliJ
-.idea
-
 # Gradle
 .gradle
 build
+
+# IntelliJ
+.idea
 *.iml
 out
-/bin/
+bin
+
+# Eclipse
+.settings
+.project
+.classpath
+livingdoc-eclipse.log
+target/
